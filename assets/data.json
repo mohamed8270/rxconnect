@@ -1,0 +1,165 @@
+{
+   "Anesthesia":[
+    {
+        "_id": "1000",
+        "medname": "Ether",
+        "medform": "Inhalation",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "Intake",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYuXBtBKWtMPoaOJHkRtRe2pbTLkxCWTZUw&usqp=CAU"
+    },
+    {
+        "_id": "1001",
+        "medname": "Halothane with vaporizer",
+        "medform": "Inhalation",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "Intake",
+        "image":"https://5.imimg.com/data5/MA/HH/MY-70419531/halothane-anesthetic-vaporizer-500x500.jpg"
+    },
+    {
+        "_id": "1002",
+        "medname": "Isoflurane",
+        "medform": "Inhalation",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "Intake",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2023/3/QU/TJ/PB/70053924/isoflurane-isoflurane-usp-liquid-for-inhalation-250ml.png"
+    },
+    {
+        "_id": "1003",
+        "medname": "Ketamine Hydrochloride",
+        "medform": "Injection",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "10 mg / ml, 50 mg / ml",
+        "image":"https://www.pfizerhospitalus.com/sites/default/files/child/images/0409-2053-20_2020_350pixel.jpg"
+    },
+    {
+        "_id": "1004",
+        "medname": "Thiopentone Sodium",
+        "medform": "Injection",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "0.5 g, 1 g powder",
+        "image":"https://5.imimg.com/data5/OX/CP/MY-7034457/thiopental-sodium-injection.jpg"
+    },
+    {
+        "_id": "1005",
+        "medname": "Propofol",
+        "medform": "Injection",
+        "medusage": "Beyond pain relief, anesthesia facilitates crucial diagnostic and therapeutic procedures. Bronchoscopies, colonoscopies, and even some biopsies utilize sedation or local anesthesia to ensure patient comfort and cooperation. The choice of anesthesia type depends on several factors, including the procedure's complexity, patient health, and individual preferences. Anesthesiologists, specialized medical doctors, carefully assess and administer anesthesia, ensuring patient safety and well-being throughout the process",
+        "medcompany": "India",
+        "meddosage": "1% oil suspension",
+        "image":"https://www.dvmed.com/product_images/DVM-100162_media_01.jpg"
+    }
+    ],
+    "Medication and Sedation":[
+        {
+            "_id": "1006",
+            "medname": "Promethazine",
+            "medform": "Syrup",
+            "medusage": "Medications broadly refer to any drug used to treat or prevent disease, spanning from everyday pain relievers and antibiotics to complex therapies for chronic conditions",
+            "medcompany": "India",
+            "meddosage": "5 mg / 5 ml",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/7/327169045/JJ/DJ/HG/132158408/promethazine-syrup-i-p-phenergan-5mg-5ml.jpg"
+        },
+        {
+            "_id": "1007",
+            "medname": "Diazepam",
+            "medform": "Tablets",
+            "medusage": "Medications broadly refer to any drug used to treat or prevent disease, spanning from everyday pain relievers and antibiotics to complex therapies for chronic conditions",
+            "medcompany": "India",
+            "meddosage": "5 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2022/4/JA/ZQ/QF/131891296/daizepam-500x500.jpg"
+        }
+    ],
+    "Analgesics , Antipyretics, Nonsteroidal Anti-inflammatory Medicines":[
+        {
+            "_id": "1008",
+            "medname": "Acetyl Salicylic Acid",
+            "medform": "Tablets",
+            "medusage": "When faced with discomfort and illness, two types of medicine often come to mind: antipyretics and nonsteroidal anti-inflammatory medicines (NSAIDs), Reduce fever, a natural bodily response to fight infection",
+            "medcompany": "India",
+            "meddosage": "325mg, 350 mg",
+            "image":"https://wellonapharma.com/admincms/product_img/product_resize_img/acetylsalicylic-acid-tablets-manufacturer-india_1618820157.jpg"
+        },
+        {
+            "_id": "1009",
+            "medname": "Diclofenac",
+            "medform": "Tablets",
+            "medusage": "When faced with discomfort and illness, two types of medicine often come to mind: antipyretics and nonsteroidal anti-inflammatory medicines (NSAIDs), Reduce fever, a natural bodily response to fight infection",
+            "medcompany": "India",
+            "meddosage": "50 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/10/350131014/WM/GD/RL/199014784/diclofenac-sodium-tablet.jpeg"
+        },
+        {
+            "_id": "1010",
+            "medname": "Paracetamol",
+            "medform": "Tablets",
+            "medusage": "When faced with discomfort and illness, two types of medicine often come to mind: antipyretics and nonsteroidal anti-inflammatory medicines (NSAIDs), Reduce fever, a natural bodily response to fight infection",
+            "medcompany": "India",
+            "meddosage": "500 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2022/9/QR/AF/MV/69966959/paracip-paracetamol-650-tablet.jpg"
+        }
+    ],
+    "Anti-infective Medicines":[
+        {
+            "_id": "1011",
+            "medname": "Albendazole",
+            "medform": "Tablets",
+            "medusage": " These powerhouses combat bacterial infections, from common ear infections to life-threatening pneumonia. They work by either killing bacteria directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "400 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2020/11/FV/NR/KM/111692368/albendazole-tablet.jpg"
+        },
+        {
+            "_id": "1012",
+            "medname": "Piperazine",
+            "medform": "Tablets",
+            "medusage": " These powerhouses combat bacterial infections, from common ear infections to life-threatening pneumonia. They work by either killing bacteria directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "4.5 gm",
+            "image":"https://cf-s3.petcoach.co/uploads/medication/113/1561997263-Piperazine.jpg"
+        },
+        {
+            "_id": "1013",
+            "medname": "Diethylcarbamazine citrate",
+            "medform": "Tablets",
+            "medusage": " These powerhouses combat bacterial infections, from common ear infections to life-threatening pneumonia. They work by either killing bacteria directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "50 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/1/JK/LO/AB/129887935/diethylcarbamazine-citrate-tablet-ip-100-mg.jpg"
+        }
+    ],
+    "Antifungal medicines":[
+        {
+            "_id": "1014",
+            "medname": "Clotrimazole",
+            "medform": "Gel",
+            "medusage": "Antifungal medicines are crucial weapons in the fight against fungal infections, which can affect various parts of the body. They work by either killing the fungal cells directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "2%",
+            "image":"https://www.bigbasket.com/media/uploads/p/xxl/40233677_1-canesten-clotrimazole-beclomethasone-dipropionate-cream-treats-fungal-skin-infections.jpg"
+        },
+        {
+            "_id": "1015",
+            "medname": "Fluconazole",
+            "medform": "Tablets",
+            "medusage": "Antifungal medicines are crucial weapons in the fight against fungal infections, which can affect various parts of the body. They work by either killing the fungal cells directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "200 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/4/300817871/OU/MB/EP/7034457/fluconazole-tablet.jpg"
+        },
+        {
+            "_id": "1016",
+            "medname": "Nystatin",
+            "medform": "Tablets",
+            "medusage": "Antifungal medicines are crucial weapons in the fight against fungal infections, which can affect various parts of the body. They work by either killing the fungal cells directly or stopping their growth, allowing the immune system to take over",
+            "medcompany": "India",
+            "meddosage": "500,000 IU",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/4/302295571/MS/HE/WE/7034457/new-product-500x500.jpeg"
+        }
+    ]
+}
