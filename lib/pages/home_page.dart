@@ -29,6 +29,9 @@ class _HomePageState extends State<HomePage> {
   List analgesics = [];
   List infective = [];
   List antifungal = [];
+  List hypoglycemia = [];
+  List muscleRelaxants = [];
+  List oxytocicsandAntioxytocics = [];
 
   Future<void> readAnesthesia() async {
     final String response = await rootBundle.loadString('assets/data.json');
@@ -71,6 +74,30 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  Future<void> readhypoglycemia() async {
+    final String response = await rootBundle.loadString('assets/data.json');
+    final data = await json.decode(response);
+    setState(() {
+      hypoglycemia = data['Hypoglycemia'];
+    });
+  }
+
+  Future<void> readMuscleRelaxants() async {
+    final String response = await rootBundle.loadString('assets/data.json');
+    final data = await json.decode(response);
+    setState(() {
+      muscleRelaxants = data['Muscle Relaxants'];
+    });
+  }
+
+  Future<void> readOxytocicsandAntioxytocics() async {
+    final String response = await rootBundle.loadString('assets/data.json');
+    final data = await json.decode(response);
+    setState(() {
+      oxytocicsandAntioxytocics = data['Oxytocics and Antioxytocics'];
+    });
+  }
+
   String getIcon(medform) {
     switch (medform) {
       case 'Inhalation':
@@ -96,6 +123,9 @@ class _HomePageState extends State<HomePage> {
     readAnalgesics();
     readInfective();
     readAntifungal();
+    readhypoglycemia();
+    readMuscleRelaxants();
+    readOxytocicsandAntioxytocics();
   }
 
   @override
@@ -159,39 +189,39 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const TitleText(
-                txt: "Anesthesia",
-              ),
-              const Gap(5),
-              SizedBox(
-                height: screenSize.height * 0.3,
-                width: screenSize.width,
-                child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemCount: anesthesia.length,
-                  itemBuilder: (context, index) {
-                    final anesthesiadata = anesthesia[index];
-                    return CardContainer(
-                      title: anesthesiadata['medname'].toString(),
-                      dosage: anesthesiadata['meddosage'].toString(),
-                      medform: anesthesiadata['medform'].toString(),
-                      icn: getIcon(anesthesiadata['medform']),
-                      imglink: anesthesiadata['image'].toString(),
-                      meddes: anesthesiadata['medusage'].toString(),
-                      click: () {
-                        cartController.addItem(
-                          anesthesiadata['_id'].toString(),
-                          anesthesiadata['medname'].toString(),
-                          anesthesiadata['image'].toString(),
-                          anesthesiadata['meddosage'].toString(),
-                          anesthesiadata['medform'].toString(),
-                        );
-                      },
-                    );
-                  },
-                ),
-              ),
-              const Gap(15),
+              // const TitleText(
+              //   txt: "Anesthesia",
+              // ),
+              // const Gap(5),
+              // SizedBox(
+              //   height: screenSize.height * 0.3,
+              //   width: screenSize.width,
+              //   child: ListView.builder(
+              //     scrollDirection: Axis.horizontal,
+              //     itemCount: anesthesia.length,
+              //     itemBuilder: (context, index) {
+              //       final anesthesiadata = anesthesia[index];
+              //       return CardContainer(
+              //         title: anesthesiadata['medname'].toString(),
+              //         dosage: anesthesiadata['meddosage'].toString(),
+              //         medform: anesthesiadata['medform'].toString(),
+              //         icn: getIcon(anesthesiadata['medform']),
+              //         imglink: anesthesiadata['image'].toString(),
+              //         meddes: anesthesiadata['medusage'].toString(),
+              //         click: () {
+              //           cartController.addItem(
+              //             anesthesiadata['_id'].toString(),
+              //             anesthesiadata['medname'].toString(),
+              //             anesthesiadata['image'].toString(),
+              //             anesthesiadata['meddosage'].toString(),
+              //             anesthesiadata['medform'].toString(),
+              //           );
+              //         },
+              //       );
+              //     },
+              //   ),
+              // ),
+              // const Gap(15),
               const TitleText(
                 txt: "Medication and Sedation",
               ),
@@ -317,6 +347,111 @@ class _HomePageState extends State<HomePage> {
                           antifungaldata['image'].toString(),
                           antifungaldata['meddosage'].toString(),
                           antifungaldata['medform'].toString(),
+                        );
+                      },
+                    );
+                  },
+                ),
+              ),
+              const Gap(15),
+              const TitleText(
+                txt: "Hypoglycemia",
+              ),
+              const Gap(5),
+              SizedBox(
+                height: screenSize.height * 0.3,
+                width: screenSize.width,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: antifungal.length,
+                  itemBuilder: (context, index) {
+                    final hypoglycemiadata = hypoglycemia[index];
+                    return CardContainer(
+                      title: hypoglycemiadata['medname'].toString(),
+                      dosage: hypoglycemiadata['meddosage'].toString(),
+                      medform: hypoglycemiadata['medform'].toString(),
+                      icn: getIcon(hypoglycemiadata['medform']),
+                      imglink: hypoglycemiadata['image'].toString(),
+                      meddes: hypoglycemiadata['medusage'].toString(),
+                      click: () {
+                        cartController.addItem(
+                          hypoglycemiadata['_id'].toString(),
+                          hypoglycemiadata['medname'].toString(),
+                          hypoglycemiadata['image'].toString(),
+                          hypoglycemiadata['meddosage'].toString(),
+                          hypoglycemiadata['medform'].toString(),
+                        );
+                      },
+                    );
+                  },
+                ),
+              ),
+              const Gap(15),
+              const TitleText(
+                txt: "Muscle Relaxants",
+              ),
+              const Gap(5),
+              SizedBox(
+                height: screenSize.height * 0.3,
+                width: screenSize.width,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: antifungal.length,
+                  itemBuilder: (context, index) {
+                    final muscleRelaxantsdata = muscleRelaxants[index];
+                    return CardContainer(
+                      title: muscleRelaxantsdata['medname'].toString(),
+                      dosage: muscleRelaxantsdata['meddosage'].toString(),
+                      medform: muscleRelaxantsdata['medform'].toString(),
+                      icn: getIcon(muscleRelaxantsdata['medform']),
+                      imglink: muscleRelaxantsdata['image'].toString(),
+                      meddes: muscleRelaxantsdata['medusage'].toString(),
+                      click: () {
+                        cartController.addItem(
+                          muscleRelaxantsdata['_id'].toString(),
+                          muscleRelaxantsdata['medname'].toString(),
+                          muscleRelaxantsdata['image'].toString(),
+                          muscleRelaxantsdata['meddosage'].toString(),
+                          muscleRelaxantsdata['medform'].toString(),
+                        );
+                      },
+                    );
+                  },
+                ),
+              ),
+              const Gap(15),
+              const TitleText(
+                txt: "Oxytocics and Antioxytocics",
+              ),
+              const Gap(5),
+              SizedBox(
+                height: screenSize.height * 0.3,
+                width: screenSize.width,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: antifungal.length,
+                  itemBuilder: (context, index) {
+                    final oxytocicsandAntioxytocicsdata =
+                        oxytocicsandAntioxytocics[index];
+                    return CardContainer(
+                      title:
+                          oxytocicsandAntioxytocicsdata['medname'].toString(),
+                      dosage:
+                          oxytocicsandAntioxytocicsdata['meddosage'].toString(),
+                      medform:
+                          oxytocicsandAntioxytocicsdata['medform'].toString(),
+                      icn: getIcon(oxytocicsandAntioxytocicsdata['medform']),
+                      imglink:
+                          oxytocicsandAntioxytocicsdata['image'].toString(),
+                      meddes:
+                          oxytocicsandAntioxytocicsdata['medusage'].toString(),
+                      click: () {
+                        cartController.addItem(
+                          oxytocicsandAntioxytocicsdata['_id'].toString(),
+                          oxytocicsandAntioxytocicsdata['medname'].toString(),
+                          oxytocicsandAntioxytocicsdata['image'].toString(),
+                          oxytocicsandAntioxytocicsdata['meddosage'].toString(),
+                          oxytocicsandAntioxytocicsdata['medform'].toString(),
                         );
                       },
                     );

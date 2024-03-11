@@ -31,7 +31,7 @@ class _SplashPageState extends State<SplashPage> {
       body: SafeArea(
         child: Center(
           child: SvgPicture.network(
-            'https://www.svgrepo.com/show/393161/pill.svg',
+            'https://www.svgrepo.com/show/318051/medicine-pill.svg',
             height: 200,
             width: 200,
             color: rwhite,

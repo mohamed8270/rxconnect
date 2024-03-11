@@ -161,5 +161,83 @@
             "meddosage": "500,000 IU",
             "image":"https://5.imimg.com/data5/SELLER/Default/2023/4/302295571/MS/HE/WE/7034457/new-product-500x500.jpeg"
         }
+    ],
+    "Hypoglycemia":[
+        {
+            "_id": "1017",
+            "medname": "Glucagon",
+            "medform": "Injection",
+            "medusage": "Glucagon is a hormone produced by your pancreas, specifically by alpha cells located in the islets of Langerhans. It plays a vital role in regulating blood sugar (glucose) levels in your body. Unlike insulin, which lowers blood sugar, glucagon acts as the opposing force, raising blood sugar when it dips too low (hypoglycemia).",
+            "medcompany": "India",
+            "meddosage": "1mg/ml",
+            "image":"https://images.apollo247.in/pub/media/catalog/product/g/l/glu0084_1.jpg"
+        },
+        {
+            "_id": "1018",
+            "medname": "25% Dextrose",
+            "medform": "Injection",
+            "medusage": "25% Dextrose is a sterile solution containing 25% dextrose (glucose) in water for injection. It's a type of intravenous (IV) fluid administered directly into a vein through an IV line",
+            "medcompany": "India",
+            "meddosage": "100 ml",
+            "image":"https://www.netmeds.com/images/product-v1/600x600/1023085/dextrose_50_medilife_injection_25ml_410681_0_0.jpg"
+        },
+        {
+            "_id": "1019",
+            "medname": "Clomiphene citrate",
+            "medform": "Tablets",
+            "medusage": "Clomiphene citrate, often simply referred to as clomiphene, is a medication used to stimulate ovulation (egg release) in women who are struggling to conceive due to anovulation (absence of ovulation). It works by influencing the body's natural hormone production, specifically targeting the pituitary gland.",
+            "medcompany": "India",
+            "meddosage": "100mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2021/2/CW/LB/MP/15939546/clomitop-100.jpeg"
+        }
+    ],
+    "Muscle Relaxants":[
+        {
+            "_id": "1020",
+            "medname": "Atracurium besylate",
+            "medform": "Injection",
+            "medusage": "Atracurium besylate, also known as atracurium besilate, is a medication used in hospital settings to provide skeletal muscle relaxation during surgery or mechanical ventilation. It belongs to a class of drugs called nondepolarizing neuromuscular blocking agents (NMBAs).",
+            "medcompany": "India",
+            "meddosage": "10 mg / ml",
+            "image":"https://5.imimg.com/data5/VB/JZ/NT/SELLER-29662017/atracurium-besylate-injection-ip.jpg"
+        },
+        {
+            "_id": "1021",
+            "medname": "Neostigmine",
+            "medform": "Tablets",
+            "medusage": "During surgeries or other procedures, doctors sometimes utilize NMBAs to relax muscles. Neostigmine acts as an antidote, helping to reverse the muscle relaxation induced by these NMBAs and allowing muscles to regain their normal function.",
+            "medcompany": "India",
+            "meddosage": "15 mg",
+            "image":"https://cpimg.tistatic.com/07279982/b/4/Neostigmine-Tablets-I-P-.jpg"
+        },
+        {
+            "_id": "1022",
+            "medname": "Pyridostigmine",
+            "medform": "Tablets",
+            "medusage": "Pyridostigmine, often sold under the brand name Mestinon®, is a medication used to treat muscle weakness associated with a neuromuscular disease called Myasthenia Gravis (MG). It works by enhancing the action of acetylcholine, a vital neurotransmitter responsible for muscle contraction.",
+            "medcompany": "India",
+            "meddosage": "60 mg",
+            "image":"https://5.imimg.com/data5/SELLER/Default/2023/4/304182975/FR/KS/WW/1121516/pyridostigmine-bromide-tablets-bp.jpg"
+        }
+    ],
+    "Oxytocics and Antioxytocics":[
+        {
+            "_id": "1023",
+            "medname": "Methyl Ergometrine",
+            "medform": "Tablets",
+            "medusage": "Methyl ergometrine, also known as methergine, is a semisynthetic ergot alkaloid medication used primarily to prevent or control postpartum hemorrhage (excessive bleeding) following childbirth or abortion. It works by stimulating strong contractions of the uterine muscle.",
+            "medcompany": "India",
+            "meddosage": "0.125mg",
+            "image":"https://cpimg.tistatic.com/05609452/b/4/Ergometrine-Maleate-Tablets.jpg"
+        },
+        {
+            "_id": "1024",
+            "medname": "Mifepristone",
+            "medform": "Tablets",
+            "medusage": "Mifepristone, also known by the brand name Mifeprex, is a medication used in combination with another medication called misoprostol for medical termination of pregnancy within the first 70 days (10 weeks) of gestation. It works by blocking the action of progesterone, a hormone essential for maintaining a pregnancy.",
+            "medcompany": "India",
+            "meddosage": "200mg",
+            "image":"https://static2.medplusmart.com/products/_19c46c_/UNWA0001_L.jpg"
+        }
     ]
 }
